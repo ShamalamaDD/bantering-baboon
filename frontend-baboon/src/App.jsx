@@ -3,6 +3,7 @@ import { Routes, Route, Link } from 'react-router-dom'
 import Home from './pages/Home'
 import Analysis from './pages/Analysis'
 import About from './pages/About'
+import Payment from './pages/Payment'
 import { MotionConfig } from 'framer-motion'
 
 function Navbar(){
@@ -16,6 +17,7 @@ function Navbar(){
         <Link to="/" className="text-gray-300 hover:text-white">Home</Link>
         <Link to="/analysis" className="text-gray-300 hover:text-white">Analysis</Link>
         <Link to="/about" className="text-gray-300 hover:text-white">About</Link>
+        <Link to="/payment" className="text-gray-300 hover:text-white">Payment</Link>
       </div>
     </nav>
   )
@@ -31,6 +33,7 @@ export default function App(){
             <Route path="/" element={<Home/>} />
             <Route path="/analysis" element={<Analysis/>} />
             <Route path="/about" element={<About/>} />
+            <Route path="/payment" element={<Payment/>} />
           </Routes>
         </main>
       </div>
