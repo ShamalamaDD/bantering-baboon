@@ -34,7 +34,7 @@ export default function Home() {
       <header className="max-w-6xl w-full grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
         <article>
           <h1 className="text-4xl md:text-5xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-pink-400 via-orange-400 to-yellow-300">
-            🎙️ Bantering Baboon
+            🎙️ Speak Pace
           </h1>
 
           <p className="mt-4 text-gray-300 max-w-lg">

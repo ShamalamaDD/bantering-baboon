@@ -5,13 +5,13 @@ import Analysis from './pages/Analysis'
 import About from './pages/About'
 import Payment from './pages/Payment'
 import { MotionConfig } from 'framer-motion'
-
+//🐵
 function Navbar(){
   return (
     <nav className="w-full py-4 px-6 flex items-center justify-between">
       <Link to="/" className="flex items-center gap-3">
-        <div className="w-10 h-10 rounded-full bg-gradient-to-br from-pink-500 to-orange-400 flex items-center justify-center text-white font-bold">🐵</div>
-        <div className="text-white font-semibold">Bantering Baboon</div>
+        <div className="w-10 h-10 rounded-full bg-gradient-to-br from-pink-500 to-orange-400 flex items-center justify-center text-white font-bold">🎙️</div> 
+        <div className="text-white font-semibold">Speak Pace</div>
       </Link>
       <div className="flex items-center gap-4">
         <Link to="/" className="text-gray-300 hover:text-white">Home</Link>
